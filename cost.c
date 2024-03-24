@@ -29,7 +29,6 @@ int cal(int select, int num_page, int admit)
         {
             total = pro_cost * 50 + pro_cost * 1.5 * (num_page - 50);
         }
-        return total;
     }
     else
     {
@@ -48,10 +47,9 @@ int cal(int select, int num_page, int admit)
                 total = 0;
             }
         }
-        return total;
     }
 
-    return 0;
+    return total;
 }
 
 int main()
